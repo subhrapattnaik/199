@@ -136,5 +136,15 @@ of the requests made on a separate thread.
 That way, all the requests would be handled separately on
 a different thread and can execute simultaneously!
 
+------------------------------------------------------------------------------------
+ere, we can see that if Client 1 and Client 2 make a Request at the same time to the
+Server, then our server can perform the task in 2 different Threads simultaneously to
+save time, without having to wait for the previous tasks to get finished.
 
+
+In our chat application, since we are dealing with multiple
+clients, we can use threads 
+
+
+importing Thread from the threading module
 
