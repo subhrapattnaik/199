@@ -148,3 +148,14 @@ clients, we can use threads
 
 importing Thread from the threading module
 
+We will create a variable new_thread inside which we will use Thread().
+Now the Thread() uses 2 arguments, target and args.
+
+target here, is the name of the function that we want this thread to execute, and args are
+the parameters that you may want to pass into that function.
+-----------------------------------------------
+
+Now, let’s create the function clientthread().
+-
+In our case, we are calling a function clientthread with arguments (conn, addr). 
+In this function, the first thing that we’d like to do is to welcome the client to the chat app 
